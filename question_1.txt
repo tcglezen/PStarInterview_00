@@ -1,0 +1,9 @@
+Context: 
+Suppose there is a village plagued by a vampire with n people. Each night the vampire goes into the village and eats one person. The only way to kill the vampire is to have a villager drink some poison and have the vampire eat that person during the night time. If the villager drinks the poison then they will die the following day. The vampire is unable to distinglish between healthy and poisoned villagers and each villager is equally likely to be eaten by the vampire. After the vampire dies, every one else gets to live. 
+
+Objective: 
+Let S be a function that takes in parameters P, n and outputs the number of survivors. P is a function that determines the number of poison each night and n is the number of villagers. Let E be the expected value function. 
+
+Find the following: 
+
+argmax_{P} E(S(P, n)) 
